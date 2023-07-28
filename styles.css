@@ -1,0 +1,218 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap);
+nav,nav:hover
+{
+  transition:1s
+}a,nav:hover
+{
+  width:280px
+}
+.users .card h4,.users .card p
+{
+  text-transform:uppercase
+}
+.box,nav
+{
+  overflow:hidden
+}
+*{
+  margin:0;
+  padding:0;
+  outline:0;
+  border:none;
+  text-decoration:none;
+  box-sizing:border-box;
+  font-family:Poppins,sans-serif
+}
+body{
+  background:#e2e2e2
+}
+nav{
+  position:sticky;
+  top:0;
+  bottom:0;
+  height:100vh;
+  left:0;
+  width:90px;
+  background:#fff
+}
+.nav-item,a,nav .fas{
+  position:relative
+}
+a{
+  font-size:14px;
+  color:#555353;
+  display:table;
+  padding:10px
+}
+nav .fas{
+  width:70px;
+  height:40px;
+  top:20px;
+  font-size:20px;
+  text-align:center
+}
+.nav-item{
+  top:12px;
+  margin-left:10px
+}
+a:hover{
+  background:#eee
+}
+a:hover i{
+  color:#d76513;
+  transition:.5s
+}
+.logout{
+  position:absolute;
+  bottom:0
+}
+.container{
+  display:flex
+}
+.main{
+  position:relative;
+  padding:20px;
+  width:100%
+}
+.courses-list,.users .card{
+  padding:10px;
+  background:#fff;
+  box-shadow:0 20px 35px rgba(0,0,0,.1)
+}
+.main .users,.main-top{
+  display:flex;
+  width:100%
+}
+.main-top i{
+  position:absolute;
+  right:0;
+  margin:10px 30px;
+  color:#6e6d6d;cursor:pointer
+}
+.users .card{
+  width:25%;
+  margin:10px;
+  text-align:center;
+  border-radius:10px
+}
+.users .card .fab,.users .card .fas{
+  width:70px;
+  height:70px;
+  border-radius:50%
+}
+.users .card p{
+  font-size:12px;
+  margin-bottom:15px
+}
+.users .card button{
+  width:100%;
+  margin-top:8px;
+  padding:7px;
+  cursor:pointer;
+  border-radius:10px;
+  background:0 0;
+  border:1px solid #d76513
+}
+.users .card button:hover{
+  background:#d76513;
+  color:#fff;
+  transition:.5s
+}
+.courses{
+  margin-top:20px;
+  text-transform:capitalize
+}
+.courses-list{
+  width:100%;
+  margin-top:10px;
+  border-radius:10px
+}
+.box{
+  width:fit-content;
+  border-collapse:collapse;
+  margin:25px 0;
+  font-size:15px;
+  min-width:100%;
+  border-radius:5px 5px 0 0
+}
+.fa-css3-alt{
+  color:#00f
+}
+.fa-js{
+  color:green
+}
+.fa-html5{
+  color:orange
+}
+.fa-php{
+  color:#1109ee
+}
+.skills .title::after{
+  content:"what i know"
+}
+.skills .skills-content .column{
+  width:calc(50% - 30px)
+}
+.skills .skills-content .left .text{
+  font-size:20px;
+  font-weight:600;
+  margin-bottom:40px
+}
+.skills .skills-content .left p{
+  text-align:justify
+}
+.skills .skills-content .left a{
+  display:inline-block;
+  background:#4314dc;
+  color:#fff;
+  font-size:18px;
+  font-weight:500;
+  padding:8px 16px;
+  margin-top:20px;
+  border-radius:6px;
+  border:2px solid #3214dc;
+  transition:.3s
+}
+.skills .skills-content .left a:hover{
+  color:#4314dc;
+  background:0 0
+}
+.skills .skills-content .right .bars{
+  margin-bottom:20px
+}
+.skills .skills-content .right .info{
+  display:flex;
+  margin-bottom:20px;
+  align-items:center;
+  justify-content:space-between
+}
+.skills .skills-content .right span{
+  font-weight:500;
+  font-size:18px
+}
+.skills .skills-content .right .line{
+  height:5px;
+  width:100%;
+  background:#f3f0f0;
+  position:relative
+}
+.skills .skills-content .right .line::before{
+  content:"";
+  position:absolute;
+  height:100%;
+  left:0;
+  top:0;
+  background:#4314dc
+}
+.skills-content .right .html::before{
+  width:65%
+}
+.skills-content .right .css::before{
+  width:60%
+}
+.skills-content .right .js::before{
+  width:40%
+}
+.skills-content .right .php::before{
+  width:20%
+}
